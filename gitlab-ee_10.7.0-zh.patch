@@ -3351,7 +3351,7 @@ index fcc3340..fccc572 100644
  
    def remove_group_message(group)
 -    _("You are going to remove %{group_name}. Removed groups CANNOT be restored! Are you ABSOLUTELY sure?") %
-+    _("你正在删除组 %{group_name}. 组的删除是无法恢复的! 你十分确定要删除吗?") %
++    _("你正在删除群组 %{group_name}. 群组的删除是无法恢复的! 你确定要删除吗?") %
        { group_name: group.name }
    end
  
